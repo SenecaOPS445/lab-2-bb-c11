@@ -1,0 +1,60 @@
+test_0 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for file creation: ./lab2a.py ... ok
+test_1 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for errors running: ./lab2a.py ... /usr/lib/python3.10/subprocess.py:767: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='UTF-8'>
+  _cleanup()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_2 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for correct shebang line: ./lab2a.py ... ok
+test_3 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for correct output: ./lab2a.py ... ok
+test_0 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() function - Test for file creation: ./lab2b.py ... ok
+test_1 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test for errors with sending input "Jon" "20": ./lab2b.py ... ok
+test_2 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test for correct shebang line: ./lab2b.py ... ok
+test_3 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jon" "20": ./lab2b.py ... ok
+test_4 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jen" "25": ./lab2b.py ... ok
+test_0 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for file creation: ./lab2c.py ... ok
+test_1 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for errors with 2 args: ./lab2c.py Jon 20 ... ok
+test_2 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for correct shebang line: ./lab2c.py ... ok
+test_3 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jon 20 ... ok
+test_4 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jen 25 ... ok
+test_0 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for file creation: ./lab2d.py ... ok
+test_1 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py ... FAIL
+
+======================================================================
+FAIL: test_1 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/bb-c1/ops445/lab2/./CheckLab2.py", line 186, in test_1
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 1 != 0 : your program exited with a error(HINT: try running your program to see the error)
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.073s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab2.py
+=================================================================
+    User login name: bb-c1
+    Git Email: 
+    Linux system name: Bishwash
+    Python executable: /usr/bin/python3
+    Python version:  3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+    OS Platform: linux
+    Working Directory: /home/bb-c1/ops445/lab2
+    Start at: Tue May 28 23:31:53 2024
+=================================================================
